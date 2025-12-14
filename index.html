@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Drive Lobby</title>
+<style>
+body{margin:0;font-family:system-ui;background:#0b0f14;color:#e8eef6;display:grid;place-items:center;height:100vh}
+.card{width:min(520px,92vw);background:#121a24;border:1px solid #223043;border-radius:16px;padding:20px}
+button{cursor:pointer;border:0;border-radius:12px;padding:12px 14px;font-weight:700;background:#2a9df4}
+.small{opacity:.8;font-size:13px}
+</style>
+</head>
+<body>
+<div class="card">
+<h1>Free Drive Lobby</h1>
+<div class="small">기본차: McLaren Senna (Stock)<br/>퀘스트: 1000m → 500C (반복)</div><br/>
+<button id="start">Start Drive</button>
+</div>
+<script type="module" src="./src/mainMenu.js"></script>
+</body>
+</html>
